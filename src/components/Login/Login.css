@@ -1,0 +1,28 @@
+.logout:hover,.login__button:hover {
+    color: black;
+  }
+  
+  .login__button,.logout {
+    box-sizing: border-box;
+    transition: all 0.12s cubic-bezier(0.47, 0, 0.745, 0.715);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    transition: 170ms;
+    font-family: Inter, sans-serif;
+    color: #e04f4f;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+
+
+  .login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

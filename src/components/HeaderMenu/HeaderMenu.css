@@ -1,0 +1,97 @@
+.nav-bar{
+  position: fixed;
+  top: 0;
+  right: -120%;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 4px 0 84px 20px rgb(77 90 203 / 17%);
+  transition: left .2s linear;
+  transition: 600ms ease 0s;
+  height: 100%;
+  justify-content: start;
+  width: 400px;
+
+}
+
+.hidden{
+  right: 0;
+}
+
+
+.menu__body ul {
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+ 
+}
+
+.menu__body {
+  margin-right:20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 50px;
+  padding: 18px 16px 18px 16px;
+}
+
+.menu__body ul{
+  text-align:end
+}
+
+.menu__body ul li {
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.menu__body ul li a {
+  font-size: 18px;
+  height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center;
+  transition: all 170ms ease 0s;
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  color: #10132c;
+  margin-bottom: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.menu__body img{
+  cursor: pointer;
+}
+
+
+.menu__body ul li a:hover {
+  color: rgb(224, 79, 79);
+}
+
+@media(max-width:700px){
+  .menu__body ul{
+    text-align: center;
+  }
+  .menu__body{
+      margin: 0;
+  }
+}
+
+@media(max-width:390px) {
+  .nav-bar{
+    right:-200%;
+    width:100%;
+  }
+
+  .hidden{
+    right: 0;
+  }
+
+}

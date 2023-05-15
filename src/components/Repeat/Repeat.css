@@ -1,0 +1,78 @@
+.select {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.select select {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 1rem;
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  appearance: none;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.select:after {
+  content: "";
+  display: block;
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #000 transparent transparent transparent;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  z-index: 1;
+  margin-top: -3px;
+}
+
+.emptyMessage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 88px;
+  line-height: 96px;
+  text-align: left;
+  color: #9b9ca8;
+  padding: 50px 16px 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 538px) {
+  .emptyMessage span {
+      font-size: 30px;
+      line-height: 35px;
+  }
+.cards-message {
+  max-width: 500px;
+  width: 100%;
+
+}
+}
+
+    
+
+@media screen and (max-width: 479px) {
+  .emptyMessage {
+    margin-left: 0;
+    padding-left: 20px;
+  }
+
+  .emptyMessage h3 {
+    font-size: 30px;
+    line-height: 35px;
+
+  }
+
+  .cards-message {
+   max-width: 328px;
+   width: 100%;
+
+  }
+}

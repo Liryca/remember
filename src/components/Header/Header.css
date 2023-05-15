@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  padding: 18px 0;
+  align-items:center;
+  justify-content: space-between;
+
+}
+
+
+
+.logo,
+.hamburger__menu {
+  color: #e04f4f;
+  font-family: Proximanova, sans-serif;
+  color: #e04f4f;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: lowercase;
+  margin: 0;
+}
+
+.logo {
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 767px){
+  .logo,
+    .hamburger__menu{
+  font-size: 20px;
+    }
+
+}

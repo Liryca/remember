@@ -1,0 +1,64 @@
+.discribe{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Secular One',sans-serif;
+    color: #10132c;
+    font-weight: 400;
+    max-width: 980px;
+    font-size: 88px;
+    line-height: 96px;
+    text-align: left;
+}
+
+.homePage{
+  flex-direction: column;
+  padding: 50px 16px 0 16px;
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+
+.text-span{
+    color: #9b9ca8;
+}
+.wrapper__img{
+  display: flex;
+  max-width: 980px;
+}
+.homePage__img{
+
+max-width: 100%;
+
+}
+
+.homePage__content{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@media screen and (max-width: 767px) {
+  .homePage{
+    margin-left: 0;
+    padding-left:20px ;
+  }
+ .discribe{
+    font-size: 30px;
+    line-height: 35px;
+    width: 328px;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+  .homePage{
+    margin-left: 0;
+    padding-left:20px ;
+  }
+ .discribe{
+    font-size: 25px;
+    line-height: 35px;
+    width: 200px;
+  }
+
+}

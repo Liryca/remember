@@ -1,0 +1,16 @@
+.hamburger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  right: 16px;
+}
+
+.hamburger img {
+  transition: transform 600ms ease 0s;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.text{
+  cursor: pointer;
+}
