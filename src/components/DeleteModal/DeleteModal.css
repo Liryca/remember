@@ -15,6 +15,9 @@
   pointer-events: none;
   transition: 0.5s all;
   z-index: 5000;
+  align-items:center;
+  justify-content: center;
+  overflow-y: auto;
 }
 
 .delete-modal-background.active {
@@ -31,7 +34,8 @@
   max-height: calc(100vh - 2 * 5rem);
   position: relative;
   margin: 5rem auto;
-  width: 50rem;
+  max-width: 600px;
+  width: 100%;
   border-radius: 1rem;
   outline: none;
   box-shadow: 0 0.25rem 1rem 0 #2e385614;
@@ -42,6 +46,7 @@
   cursor: pointer;
   padding: 30px;
   box-sizing: border-box;
+  min-height: 300px;
 }
 
 .delete-modal-card.active {
@@ -80,6 +85,7 @@
 @media screen and (max-width: 830px) {
   .delete-modal-card {
     width: 600px;
+    
   }
 }
 
